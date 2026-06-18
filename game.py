@@ -1,7 +1,7 @@
 def game_performance(fps):
 
     if fps < 30:
-        return "high PERFORMANCE"
+        return "LOW PERFORMANCE"
 
     elif fps < 60:
         return "MODERATE PERFORMANCE"
